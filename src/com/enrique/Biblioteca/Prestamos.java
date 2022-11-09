@@ -1,7 +1,5 @@
 package com.enrique.Biblioteca;
 
-import java.awt.*;
-
 public class Prestamos {
     private Integer id;
     private String libro;
@@ -24,7 +22,7 @@ public class Prestamos {
     public Usuario getUsuario(){
         return usuario;
     }
-    public void setUsuario(Usuario usuario){
+    public void setUsuario(){
         this.usuario=usuario;
     }
     public Integer getFechaprestamo(){
@@ -36,7 +34,7 @@ public class Prestamos {
     public Integer getFechadevolucion(){
         return fechadevolucion;
     }
-    public void setFechadevolucion(Integer fechaprestamo){
-        this.fechaprestamo=fechaprestamo;
+    public void setFechadevolucion(Integer fechadevolucion){
+        this.fechadevolucion=fechadevolucion;
     }
 }
