@@ -1,9 +1,11 @@
 package com.enrique.Biblioteca;
 
+import java.awt.*;
+
 public class Prestamos {
     private Integer id;
-    private String libroprestado;
-    private String usuario;
+    private String libro;
+    private Usuario usuario;
     private Integer fechaprestamo;
     private Integer fechadevolucion;
 
@@ -13,16 +15,16 @@ public class Prestamos {
     public void setId(Integer id){
         this.id=id;
     }
-    public String getLibroprestado(){
-        return libroprestado;
+    public String getLibro(){
+        return libro;
     }
-    public void setLibroprestado(String libroprestado){
-        this.libroprestado=libroprestado;
+    public void setLibro(String libro){
+        this.libro=libro;
     }
-    public String getUsuario(){
+    public Usuario getUsuario(){
         return usuario;
     }
-    public void setUsuario(String usuario){
+    public void setUsuario(Usuario usuario){
         this.usuario=usuario;
     }
     public Integer getFechaprestamo(){
