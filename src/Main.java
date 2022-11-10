@@ -53,7 +53,7 @@ public class Main {
 
         Prestamos lend = new Prestamos();
         lend.setId(5);
-        lend.setLibro("quijote");
+        lend.setLibro();
         lend.setUsuario();
         lend.setFechadevolucion(12-10-2024);
         lend.setFechaprestamo(12112022);

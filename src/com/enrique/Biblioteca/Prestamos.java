@@ -2,7 +2,7 @@ package com.enrique.Biblioteca;
 
 public class Prestamos {
     private Integer id;
-    private String libro;
+    private Libro libro;
     private Usuario usuario;
     private Integer fechaprestamo;
     private Integer fechadevolucion;
@@ -13,10 +13,10 @@ public class Prestamos {
     public void setId(Integer id){
         this.id=id;
     }
-    public String getLibro(){
+    public Libro getLibro(){
         return libro;
     }
-    public void setLibro(String libro){
+    public void setLibro(){
         this.libro=libro;
     }
     public Usuario getUsuario(){
