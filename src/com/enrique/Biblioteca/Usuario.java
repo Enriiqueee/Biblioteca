@@ -24,7 +24,7 @@ public class Usuario {
     public String getApellidos() {
         return apellidos;
     }
-        public void setApellidos(String apellidos){
+    public void setApellidos(String apellidos){
             this.apellidos=apellidos;
         }
      public String getDni(){

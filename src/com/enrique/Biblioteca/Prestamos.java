@@ -1,4 +1,6 @@
 package com.enrique.Biblioteca;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Prestamos {
     private Integer id;
