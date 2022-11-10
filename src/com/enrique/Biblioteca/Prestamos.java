@@ -4,8 +4,8 @@ public class Prestamos {
     private Integer id;
     private Libro libro;
     private Usuario usuario;
-    private Integer fechaprestamo;
-    private Integer fechadevolucion;
+    private String fechaprestamo;
+    private String fechadevolucion;
 
     public Integer getId(){
         return id;
@@ -25,16 +25,16 @@ public class Prestamos {
     public void setUsuario(){
         this.usuario=usuario;
     }
-    public Integer getFechaprestamo(){
+    public String getFechaprestamo(){
         return fechaprestamo;
     }
-    public void setFechaprestamo(Integer fechaprestamo){
+    public void setFechaprestamo(String fechaprestamo){
         this.fechaprestamo=fechaprestamo;
     }
-    public Integer getFechadevolucion(){
+    public String getFechadevolucion(){
         return fechadevolucion;
     }
-    public void setFechadevolucion(Integer fechadevolucion){
+    public void setFechadevolucion(String fechadevolucion){
         this.fechadevolucion=fechadevolucion;
     }
 }

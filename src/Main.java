@@ -7,7 +7,7 @@ public class Main {
         Cervantes.setId(1);
         Cervantes.setNombre("Miguel de Cervantes");
         Cervantes.setApellidos("Martin");
-        Cervantes.setFechanacimiento(2-10-2000);
+        Cervantes.setFechanacimiento("2-10-2000");
         Cervantes.setLocalidad("Andorra");
         System.out.println(Cervantes.getId());
         System.out.println(Cervantes.getApellidos());
@@ -43,7 +43,7 @@ public class Main {
         quijote.setIsb(1024945698);
         quijote.setAutor("Miguel de cervantes");
         quijote.setGenero("Parodia");
-        quijote.setFechapublicacion(12 - 10 - 2002);
+        quijote.setFechapublicacion("12-10-2002");
         System.out.println(quijote.getId());
         System.out.println(quijote.getTitulo());
         System.out.println(quijote.getIsb());
@@ -55,8 +55,8 @@ public class Main {
         lend.setId(5);
         lend.setLibro();
         lend.setUsuario();
-        lend.setFechadevolucion(12-10-2024);
-        lend.setFechaprestamo(12112022);
+        lend.setFechadevolucion("12-10-2024");
+        lend.setFechaprestamo("12-11-2022");
         System.out.println(lend.getId());
         System.out.println(lend.getLibro());
         System.out.println(lend.getUsuario());

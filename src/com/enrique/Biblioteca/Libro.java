@@ -7,7 +7,7 @@ public class Libro {
     private Integer isb;
     private String autor;
     private String genero;
-    private Integer fechapublicacion;
+    private String fechapublicacion;
 
     //Metodos
     public Integer getId() {
@@ -49,11 +49,11 @@ public class Libro {
     public void setGenero(String genero) {
         this.genero = genero;
     }
-    public Integer getFechapublicacion() {
+    public String getFechapublicacion() {
         return fechapublicacion;
     }
 
-    public void setFechapublicacion(Integer fechapublicacion) {
+    public void setFechapublicacion(String fechapublicacion) {
         this.fechapublicacion = fechapublicacion;
     }
 }

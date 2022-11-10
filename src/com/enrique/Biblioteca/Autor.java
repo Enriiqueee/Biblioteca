@@ -4,7 +4,7 @@ public class Autor {
     private Integer id;
     private String nombre;
     private String apellidos;
-    private Integer fechanacimiento;
+    private String fechanacimiento;
     private String localidad;
 
     public Integer getId() {
@@ -28,11 +28,11 @@ public class Autor {
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
-    public Integer getFechanacimiento() {
+    public String getFechanacimiento() {
         return fechanacimiento;
     }
 
-    public void setFechanacimiento(Integer fechanacimiento) {
+    public void setFechanacimiento(String fechanacimiento) {
         this.fechanacimiento = fechanacimiento;
     }
     public String getLocalidad() {
